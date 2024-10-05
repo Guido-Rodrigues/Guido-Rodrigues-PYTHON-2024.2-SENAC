@@ -17,10 +17,10 @@ if (imc < 18.5 and imc>0):
 elif(imc>=18.5 and imc <25):
     print("Isso indica situação NORMAL")
 elif(imc>=25 and imc<30):
-    print("Isso indica SOBREPESO")
+    print("Isso indica SOBREPESO, grau de obesidade 1")
 elif(imc>=30 and imc<40):
-    print("Isso indica OBESIDADE")
+    print("Isso indica OBESIDADE, grau de obesidade 2")
 elif(imc<=0):
     print("IMC invalido!!")
 else:
-    print("Isso indica OBESIDADE GRAVE")
+    print("Isso indica OBESIDADE GRAVE, grau de obesidade 3")
