@@ -10,8 +10,8 @@ else:
 
 #Outra solução
 checkpar = numero/2
-teste = checkpar-int(checkpar)
-if (teste == 0):
+Resto = checkpar-int(checkpar)
+if (Resto == 0):
     print("O numero é PAR")
 else:
     print ("O número é IMPAR")
