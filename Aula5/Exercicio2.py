@@ -20,7 +20,7 @@ else:
         Vpedido = Vpedido + 50
         print("Gostaria de adicionar o pretinho por mais R$ 5.00? (S ou N)")
         #Espera input do usuario, S ou N, caso S adiciona o valor na variavel citada e depois apresenta o total.
-        Selecpretinho = input()
+        Selecpretinho = input().upper()
         if(Selecpretinho == "S"):
             Vpedido = Vpedido + 5
             print(f"Você escolheu Lavagem completa com pretinho. Total: R$ {Vpedido}")
@@ -34,7 +34,7 @@ else:
         Vpedido = Vpedido + 35
         print("Gostaria de adicionar o pretinho por mais R$ 5.00? (S ou N)")
         #Espera input do usuario, S ou N, caso S adiciona o valor na variavel citada e depois apresenta o total.
-        Selecpretinho = input()
+        Selecpretinho = input().upper()
         if(Selecpretinho == "S"):
             Vpedido = Vpedido + 5
             print(f"Você escolheu Lavagem básica com pretinho. Total: R$ {Vpedido}")
