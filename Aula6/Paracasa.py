@@ -1,3 +1,12 @@
+import time
+import threading
+
+saldoTempo = 2
+def encerrar_programa():
+    print("\nO tempo acabou! Encerrando o programa...")
+    exit()
+threading.Timer(saldoTempo,encerrar_programa).start()
+
 print("Bem-vindo ao programa de reciclagem!")
 material = int(input("Selecione o tipo de material que deseja reciclar:\n1- Papel\n2- Plástico\n3- Vidro\n4- Metal\n5- Orgânico\n6- Resíduos não recicáveis\n->"))
 papel = 0
@@ -7,6 +16,7 @@ metal = 0
 organico= 0
 outros = 0
 loop = 1
+
 while loop == 1:
     loop2 = 1 #Loop2 para não deixar o usuário passar com material inválido
     while loop2 == 1:
@@ -50,4 +60,5 @@ while loop == 1:
         else:
             print("Entrada inválida! tente novamente!")
             repete = input()
+
 print(f"Obrigado por contribuir com a reciclagem!\nVocê descartou:\n{papel} papel(is);\n{plastico} plástico(s);\n{vidro} vidro(s);\n{metal} metal(is);\n{organico} orgânico(s) e\n{outros} não recicláveis")
