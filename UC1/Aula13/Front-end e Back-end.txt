@@ -1,0 +1,19 @@
+Frontend
+    Design, 
+    Sites estáticos
+Backend
+    Segurança/Estrutura
+    Sites dinâmicos
+
+Ferramentas
+    Ferramente principal: HTML
+        é uma Linguagem de Marcação de HiperTexto
+    CSS
+        é uma das ferramentas principais
+        Folhas de estilo em cascata
+        Modularização das configurações de estilo
+        Bootstrap
+            Framework de CSS
+    Javascript
+        Linguagem de programação
+        Client-side
