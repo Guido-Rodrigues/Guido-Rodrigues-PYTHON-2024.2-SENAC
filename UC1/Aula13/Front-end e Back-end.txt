@@ -8,6 +8,9 @@ Backend
 Ferramentas
     Ferramente principal: HTML
         é uma Linguagem de Marcação de HiperTexto
+        Arquivo principal:
+            Index.HTML
+
     CSS
         é uma das ferramentas principais
         Folhas de estilo em cascata
@@ -17,3 +20,11 @@ Ferramentas
     Javascript
         Linguagem de programação
         Client-side
+    Editores de texto
+        VSCODE
+        Notepad++
+            Suporte ao desenvolvimento, atalhos, interfaces.
+            Preze pela IDENTAÇÃO - maior legibilidade
+            Highlight
+            Organização
+            Atalhos
