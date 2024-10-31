@@ -1,0 +1,37 @@
+body{
+   background-image:url(quadronegro.jpg);
+   
+   margin: 100px;
+}
+.background{
+    filter:blur(4px)
+}
+img{
+    width: 250px;
+    height: 250px;
+    padding-left: 100px;
+    
+}
+h1{
+    font-size: 100px;
+    color:rgb(125, 186, 240)
+    
+}
+h2{
+    font-family: helvetica;
+    background-color: rgba(0, 0, 0, 0.411);
+    color:rgb(125, 186, 240)
+}
+p{
+    font-family: helvetica;
+    background-color: rgba(0, 0, 0, 0.411);
+    color:aliceblue
+}
+#senac{
+    width: 657px;
+    height: 218px;
+    margin: auto;
+}
+#saturno{
+    width: auto;
+}
