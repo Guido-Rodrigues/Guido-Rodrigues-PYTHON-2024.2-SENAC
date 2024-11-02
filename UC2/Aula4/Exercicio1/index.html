@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Faça um sistema com a proporção |]-Col4[]-Col8-[| onde o lado esquerdo seja o escudo do time e na direita conte a sua situação atual no brasileirao em texto. Faça isso para os 4 times cariocas na serie A do brasileirao-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: grey;
+        }
+        h1{
+            padding-left: 100px;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        .row{
+            display: flex;
+            padding-left: 100px;
+            padding-right: 100px;
+
+        }
+        #escudos{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            align-items: center;
+        }
+            
+        #nomes{
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .col-8{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: white;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Situação dos times cariocas no Brasileirao 2024, rodada 32</h1>
+        <br><br><br>
+        <div class="row">
+            <div class="col-2" id="nomes">
+                <h2 >Botafogo</h2>
+                <h2>Flamengo</h2>
+                <h2>Fluminense</h2>
+                <h2>Vasco</h2>
+            </div>
+            <div class="col-2" id="escudos">
+                <h2>
+                     <br>
+                    <img class="img-fluid" src="botafogo.png" alt="">
+                </h2>
+    
+                <h2>
+                     <br>
+                    <img class="img-fluid" src="flamengo.png" alt="">
+                </h2>
+    
+                <h2>                    
+                     <br>
+                    <img class="img-fluid" src="fluminense.png" alt="">
+                </h2>
+    
+                <h2>                    
+                     <br>
+                    <img class="img-fluid" src="vasco.png" alt="">
+                </h2>
+    
+            </div>
+            <div class="col-8">
+                <h2 class="text-center">Botafogo</h2>
+                <p>O Botafogo está vivendo uma temporada de destaque, brigando pelo título do Brasileirão. Na 32ª rodada, o time enfrenta o Vasco da Gama em um clássico carioca que promete ser emocionante. Com uma campanha sólida, o Botafogo não corre risco de sair do G-4, garantindo assim uma vaga direta na Libertadores do próximo ano</p>
+                <h2 class="text-center">Flamengo</h2>
+                <p>O Flamengo ocupa a quarta posição na tabela, mas precisa ficar atento para não ser ultrapassado pelo Internacional. Na 32ª rodada, o Flamengo enfrenta o Cruzeiro, e uma vitória é crucial para manter a posição no G-4 e assegurar a classificação direta para a Libertadores. A equipe tem mostrado um futebol competitivo, mas a pressão é grande para manter a consistência nas últimas rodadas.</p>
+                <h2 class="text-center">Fluminense</h2>
+                <p>O Fluminense está na briga por uma vaga na Libertadores e enfrenta o Grêmio na 32ª rodada. A equipe tricolor tem alternado bons e maus momentos ao longo da temporada, mas ainda está na disputa por uma posição no G-6. Uma vitória contra o Grêmio seria fundamental para as aspirações do clube de garantir uma vaga na competição continental.</p>
+                <h2 class="text-center">Vasco</h2>
+                <p>O Vasco da Gama sonha com uma vaga no G-6, que dá acesso à pré-Libertadores. Na 32ª rodada, o time enfrenta o Botafogo em um clássico decisivo. O Vasco precisa de uma vitória para manter vivas as esperanças de classificação para a competição continental. A equipe tem mostrado garra e determinação, mas precisa de resultados positivos nas últimas rodadas para alcançar seu objetivo.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </footer>
+</body>
+</html>
